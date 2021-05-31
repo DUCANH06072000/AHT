@@ -386,16 +386,16 @@ margin-left: 600px;
 	position: absolute;
 	display: none;
 }
- #hover input
+.bellow_2 #hover input
 {
+
 	background: #d6ba8d;
-	width: 30px;
-	height: 30px;
+	
 	margin-left: 5px;
 	color: white;
-	margin-top: 52px;
+	margin-top: 48px;
 	float: left;
-
+	
 }
 #hover img
 {
@@ -403,22 +403,33 @@ margin-left: 600px;
 	margin-top: -100px;
 	margin-left: 100px;
 }
+.bellow_2  i 
+{
+	float: left;
+	color: white;
+	padding: 2px;
+	background: #595858;
+
+}
+
 .bellow_2  #hover ul 
 {
 	margin: 0px;
 	padding: 0px;
+
 }
-.bellow_2 #hover ul li
+.bellow_2  #hover ul li i
 {
-
-	
-	margin: 1px;
-	list-style: none;
+	padding: 9px;
 	float: left;
+	background: #595858;
+	margin: -3px;
+	margin: 7px;
+	margin-top: 48px;
+	margin-left: -13px;
+
+
 	
-
-
-
 }
 #giua_tren_1:hover #hover 
 {
@@ -1090,7 +1101,7 @@ margin-left: 600px;
 	padding: 0px 60px 0px 30px;
 	margin: 2px;
 	margin-top: 40px;
-	margin-left: 12px;
+	margin-left: 15px;
 
 
 }
@@ -1120,6 +1131,10 @@ margin-left: 600px;
 
 	color: #d6ba8d;
 }
+.bellow_5 #tren i
+{
+	color: #d6ba8d;
+}
 .bellow_5 #tren img
 {
 
@@ -1127,16 +1142,19 @@ margin-left: 600px;
 	height: 100px;
 	margin-top: -10px;
 }
-.bellow_5 #tren input
+.bellow_5 #tren button
 {
-	margin-top: 68px;
+	margin-top: 50px;
 	color: #ababab;
-	font-family: Bahnschrift SemiBold;
+	font-family: Myriad Pro;
 	background: #333333;
 	width: 100px;
 	text-align: center;
 	margin-left: 300px;
-	
+	width: 150px;
+	height: 40px;
+	letter-spacing: 2px;
+	font-weight: bold;
 }
 .bellow_5 #duoi
 {
@@ -1167,6 +1185,8 @@ margin-left: 600px;
 	margin-left: 1400px;
 	
 
+	
+
 }
 #duoi_1 ul
 {
@@ -1177,14 +1197,19 @@ margin-left: 600px;
 {
 	float:left;
 	list-style: none;
+
 }
-#duoi_1 img
+#duoi_1 ul li  i
 {
-	border-radius: 80px;
+	padding: 20px;
+	border-radius: 80px solid grey;
+	background: #333333;
+	
+
 
 
 }
-#duoi_1 img:hover
+#duoi_1 ul li i:hover
 {
 	color: #d6ba8d;
 }
