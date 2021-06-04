@@ -1,22 +1,24 @@
-@media screen and (max-width: 700px)
+@media screen and (max-width: 768px)
 {
-	
-body
-{
-	width: 600px;
-	height: 1000px;
-	
-}
+
+	body
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+
+
 .banner #banner_0 img
 {
-	width: 800px;
-	height: 500px ;
+	width:170%;
+	height: 170%;
 	
 }
 .banner #banner_2 img
 {
 	position: absolute;
-	margin-top: -1000px;
+	margin-top: -500px;
 	margin-left: 103px;
 	background: green;
 	border-radius:60px;
@@ -24,29 +26,34 @@ body
 .banner #banner_1
 {
 width: 550px;
-margin-top: -400px;
+margin-top:-300px;
 margin-left: 50px;
 
 }
 .banner #banner_1 h1
 {
-	padding-top: -500px;
+
 	padding-bottom: 30px;
 	color: #333333;
-	font-size: 40px;
-	letter-spacing: 20px;
-
+	font-size: 20px;
+	letter-spacing: 5px;
 	font-family: 'Cormorant', serif;
 	font-weight: bold;
+	margin-left: 130px;
+	width: 200px;
+	margin-top: 10px;
+	letter-spacing: 7px;
 
 }
 .banner #banner_1 h6
 {
 	
 	color: #696969;
-	font-size: 20px;
+	font-size: 10px;
 	font-family: 'Fira Sans', sans-serif;
-	letter-spacing: 10px;
+	letter-spacing: 7px;
+	margin-top: 100px;
+	margin-left: 130px;
 
 }
 .banner #banner_1 button
@@ -55,18 +62,20 @@ margin-left: 50px;
 	font-weight: bold;
 	background: #333333;
 	color: white;
-	width:180px;
-	height: 50px;
+	width:70px;
+	height: 20px;
 	font-family: 'Fira Sans', sans-serif;
-	letter-spacing: 6px;
+	margin-left: 130px;
+	margin-top: -200px;
+	font-size: 7px;
 }
 .banner #banner_3 
 {
 	position: absolute;
-	margin-left: 600px;
-	margin-top: -200px;
+	margin-left: 520px;
+	margin-top: -120px;
 	font-family: 'Cormorant', serif;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 .banner #banner_3 ul
@@ -82,7 +91,7 @@ margin-left: 50px;
 .banner #banner_3 a
 {
 	text-decoration: none;
-	line-height: 60px;
+	line-height: 20px;
 	color:#ded6c1;
 }
 .banner #banner_3 a:hover
@@ -94,10 +103,9 @@ margin-left: 50px;
 {
 	border-bottom: 1px solid #BBBBBB;
 	border-left: 1px solid #BBBBBB;
-	border-right: 1px solid #BBBBBB;
-	width: 800px;
+	border-right: 1px solid green;
+	width:630px;
 	
-
 }
 
 .top
@@ -105,12 +113,11 @@ margin-left: 50px;
 	background: #FFFFFF;
 	height: 30px;
 	min-height: 80px;
-	border-width: 1px solid #BBBBBB;
-	border-left: 1px solid #BBBBBB;
-	margin-top: 200px;
-	margin-left: 160px;
-	
 
+	border-left: 1px solid #BBBBBB;
+	margin-top: 40px;
+	margin-left: 120px;
+	width: 505px;
 }
 .top ul 
 {
@@ -122,15 +129,16 @@ margin-left: 50px;
 {
 	
 	text-decoration: none;
-	line-height: 40px;
+	line-height: 30px;
 	margin-left: 10px;
-	padding: 0px 30px 0px 20px;
-	border-right: 1px solid #BBBBBB;
+	padding: 0px 10px 0px 10px;
+	/*border-right: 1px solid #BBBBBB;*/
 	color: #333333;
 	font-size: 10px;
 	list-style: none;
 	float: left;
 	text-align: center;
+	margin-top: 20px;
 }
 .top h3
 {
@@ -147,35 +155,38 @@ margin-left: 50px;
 	margin-top: -14px;
 	
 }
-
+.bellow_1
+{
+	
+	width: 130%;
+	
+	background-size: 100% 100%;
+}
 .bellow_1 #giua
 {
-		
-		margin-top: 70px;
-		
-		background: green;
-
+		margin-top: 10px;
 }
 
 .bellow_1 #tren h2
 {
-		width: 400px;
+		width: 300px;
 		text-align: center;
-		margin-top: 100px;
-		margin-left: 100px;
+		margin-top: 50px;
+		margin-left: 160px;
 		font-family: 'Cormorant', serif;
-		font-size: 20px;
-
+		font-size: 16px;
+		background-size: 100% 100%;
 
 }
 
 .bellow_1 #giua_1
 {
-	width: 700px;
-	height: 150px;
+	width: 300px;
+	height: 200px;
 	margin-left: 0px;
 	float: left;
-	width: 1870px;
+	width: 100%;
+	
 }
 
 .bellow_1 #giua_1 img
@@ -195,31 +206,37 @@ margin-left: 50px;
 	top: 410px;
 	left: 40px;
 	position: absolute;
-	font-size: 7px;
+	font-size: 10px;
 	margin-left: 60px;
-	margin-top: 550px;
+	margin-top: 430px;
+	
+	
 }
 .bellow_1 #giua_1 h5 
 {
 	text-decoration: none;
 	color: #333333;
-	margin-top:590px;
+	margin-top:470px;
 	top: 350px;
 	left: 20px;
 	font-family: 'Cormorant', serif;
 	font-size: 14px;
 	position: absolute;
 	margin-left: 60px;
+	
+	
 }
 
 .bellow_1 #giua_2
 {
-	width: 700px;
-	height: 150px;
+	width: 500px;
+	height: 500px;
 	margin-left: 0px;
 	float: left;
-	width: 1870px;	
-	margin-top: 10px;
+	width: 130%;	
+	margin-top: 200px;
+	
+	
 
 }
 
@@ -237,7 +254,7 @@ margin-left: 50px;
  	text-decoration: none;
 	color: #333333;
 	margin-top:845px;
-	top: 250px;
+	top: 180px;
 	left: 130px;
 	font-family: 'Cormorant', serif;
 	font-size: 12px;
@@ -249,10 +266,10 @@ margin-left: 50px;
  {
  	text-decoration: none;
 	color: #d6ba8d;
-	top: 310px;
+	top: 240px;
 	left: 200px;
 	position: absolute;
-	font-size: 7px;
+	font-size: 10px;
 	margin-left: 130px;
 	margin-top: 800px;
  }
@@ -269,7 +286,8 @@ margin-left: 50px;
  	font-family: 'Cormorant', serif;
  	height: 300px;
  	margin-left: 300px;
- 	margin-top: 700px;
+ 	margin-top: 670px;
+
  
  }
  .bellow_1 #giua_2 h6
@@ -284,7 +302,7 @@ margin-left: 50px;
 	font-family: 'Fira Sans', sans-serif;
  	height: 300px; 
  	margin-left: 380px;
- 	margin-top: 700px;
+ 	margin-top: 670px;
 
  }
 .bellow_1 #giua_2 h2:hover
@@ -292,27 +310,38 @@ margin-left: 50px;
 
 	color: red;
 }
+.bellow_2
+{
+	background: green;
+}
+.bellow_2 #giua_3
+{
+	background: green;
+	width: 40%;
+}
 
 .bellow_2 #giua_3 h3
 {
-	margin-top: 100px;
+	margin-top: 50px;
 	float: left;
 	margin-left: 20px;	
 	text-align: center;
 	font-family: 'Garamond', serif;
-	font-size: 30px;
+	font-size: 25px;
+	background: green;
 }
 .bellow_2 #giua_3 p
 {
-	margin-top: -30px;
+	background: green;
+	margin-top: -20px;
 	float: left;
 	margin-left: 500px;	
 	text-align: center;
 	font-family: 'Fira Sans', sans-serif;
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
-	width: 200px;
+	width: 100px;
 
 }
 .bellow_2 #giua_tren
@@ -321,8 +350,8 @@ margin-left: 50px;
 	height: 500px;
 	margin-left: -10px;
 	float: left;
-	
-	width: 650px;
+	width: 40%;
+	background: green;
 
 }
 .bellow_2 #giua_tren img
@@ -330,8 +359,8 @@ margin-left: 50px;
 	margin-top: 20px;
 	float: left;
 	list-style: none;
-	height: 310px;
-	width: 280px;
+	height: 200px;
+	width: 225px;
 	margin: 9px;
 
 }
@@ -349,7 +378,7 @@ margin-left: 50px;
 	margin-top: 50px;
 	text-decoration: none;
 	line-height: 20px;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 3px 0px 3px;
 	margin: 3px;
 
 	color: #333333;
@@ -375,61 +404,69 @@ margin-left: 50px;
 {
 	position: relative;
 }
-.bellow_2 #hover
-{
 
-	margin-top: 235px;
-	margin-left: 2px;
-	
-	position: absolute;
-	display: none;
-}
- #hover input
+.bellow_2 #hover_1 button
 {
 
 	background: #d6ba8d;
-	
-	margin-left: 5px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+	margin-left: 2px;
+	color: white;
+	margin-top: -70px;
 	float: left;
-	padding: 10px;
-
-
+	height: 40px;
+	width: 100px;
 }
-#hover img
-{
-	float: left;
-	margin-top: -100px;
-	margin-left: 100px;
-}
+
 .bellow_2  i 
 {
 	float: left;
 	color: white;
 	padding: 2px;
 	background: #595858;
+	
+
+
 
 }
-
-.bellow_2  #hover ul 
+.bellow_2 #hover_1
+{
+	margin-left: 1px;
+	width: 300px;
+	}
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 
 }
-.bellow_2  #hover ul li i
+.bellow_2 #hover_1 ul li 
 {
-	padding: 9px;
 	float: left;
-	background: #595858;
-	margin: -3px;
-	margin: 7px;
-	margin-top: 48px;
-	margin-left: -13px;
-
-
+	list-style: none;
+	
+	background: red;
 	
 }
-#giua_tren_1:hover #hover 
+.bellow_2 #hover_1  #hovt
+{
+	margin-left: 90px;
+}
+
+.bellow_2  #hover_1 ul li i
+{
+	
+	padding: 11px;
+	margin: -10px;
+	background: #595858;
+	margin-top: -69px;
+	margin-left: 1px;
+	border: 1px solid:  white;
+
+
+}
+#giua_tren_1:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -940,16 +977,14 @@ margin-left: 50px;
 
 .bellow_3 #tong 
 {
-	margin-top: 1100px;
+	margin-top: 900px;
 	float: left;
 	background: #faf9f9;
-	width: 1150px;
-	margin-left: -310px;
+	width: 50%;
+	margin-left: -900px;
 	height: 500px;
-	
-	
-
 }
+
 .bellow_3 #tong h1
 {
 	margin-top: -25px;
@@ -958,24 +993,30 @@ margin-left: 50px;
 }
 .bellow_3 #tong img
 {
-	width: 250px;
-	height: 150px;
+	width: 200px;
+	height: 100px;
 	margin: auto;
 	margin-left: -100px;
+	
 }
 .bellow_3 #tong ul
 {
 	margin: 0px;
 	padding: 0px;
 }
+.bellow_3 #tong_1
+{
+	margin-left: -160px;
+}
 .bellow_3 #tong ul li
 {
 
-	width: 200px;
-	height: 300px;
 	width: 50px;
-	padding: 0px 100px 0px 100px;
+	height: 300px;
+	line-height: 20px;
+	padding: 0px 50px 0px 100px;
 	float: left;
+	list-style: none;
 	
 	
 }
@@ -1006,11 +1047,12 @@ margin-left: 50px;
 .bellow_3 #tong #duoi
 {
 	float: left;
-	margin-top: 40px;
+	margin-top: 90px;
 	border-top: 1px solid gray;
 	width: 200px;
 	margin-left:-90px;
 	font-size: 20px;
+	width: 180px;
 }
 .bellow_3 #tong #duoi h6
 {
@@ -1027,25 +1069,25 @@ margin-left: 50px;
 {
 
 	text-align: center;
-	margin-top: 700px;
-	margin-left: -300px;
+	margin-top: 430px;
+	margin-left: -50px;
 	
 	font-family: 'Cormorant', serif;
 	color: black;
-	width: 1000px;
-	height: 22px;
+	width:80px;
+	height: 20px;
 	font-weight: bold;
 }
 .bellow_4
 {
 	float: left;
-	text-align: center;
-	width: 1100px;
-	height: 200px;
 	
-	margin-left: 40px;
-	
-	
+	width: 800px;
+	height:200px;
+	background: green;
+	margin-left: -800px;
+	margin-top: 1400px;
+
 }
 .bellow_4 ul 
 {
@@ -1061,7 +1103,7 @@ margin-left: 50px;
 .bellow_4 ul li img
 {
 
-	padding: 0px 27px 0px 10px;
+	padding: 0px 10px 0px 10px;
 	width: 50px;
 	height: 50px;
 	background: #ffffff;
@@ -1074,15 +1116,17 @@ margin-left: 50px;
 {
 	background: #333333;
 	height: 418px;
-	width: 1180px;
+	width: 800px;
 	float: left;
+	margin-top: 1600px;
+	margin-left: -800px;
 }
 .bellow_5 #tren
 {
 
-	height: 250px;
-	width: 1400px;	
-	
+	height: 40%;
+	width: 40%;	
+	background: green;
 	margin-left: -30px;
 }
 .bellow_5 #tren ul
@@ -1095,7 +1139,7 @@ margin-left: 50px;
 {
 	list-style: none;
 	float: left;
-	padding: 0px 60px 0px 30px;
+	padding: 0px 10px 0px 10px;
 	margin: 2px;
 	margin-top: 40px;
 	margin-left: 15px;
@@ -1106,7 +1150,7 @@ margin-left: 50px;
 {
 	list-style: none;
 	float: left;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 20px 0px 20px;
 	margin: -200px;
 	margin-top: 70px;
 	margin-left: 10px;

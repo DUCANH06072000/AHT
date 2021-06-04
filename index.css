@@ -1,10 +1,9 @@
 
-
-
 *
 {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 body
@@ -39,11 +38,12 @@ margin-left: 600px;
 	padding-top: -500px;
 	padding-bottom: 30px;
 	color: #333333;
-	font-size: 60px;
-	letter-spacing: 20px;
-
+	font-size: 90px;
+	letter-spacing: 30px;
+	width: 800px;
+	margin-left: -100px;
 	font-family: 'Cormorant', serif;
-	font-weight: bold;
+	font-style: italic;
 
 }
 .banner #banner_1 h6
@@ -53,6 +53,7 @@ margin-left: 600px;
 	font-size: 20px;
 	font-family: 'Fira Sans', sans-serif;
 	letter-spacing: 10px;
+	margin-left: -100px;
 
 }
 .banner #banner_1 button
@@ -61,10 +62,11 @@ margin-left: 600px;
 	font-weight: bold;
 	background: #333333;
 	color: white;
-	width:200px;
+	width:150px;
 	height: 50px;
 	font-family: 'Fira Sans', sans-serif;
-	letter-spacing: 6px;
+	letter-spacing: 1px;
+	margin-left: -100px;
 }
 .banner #banner_3 
 {
@@ -96,6 +98,39 @@ margin-left: 600px;
 	
 	color: white;
 }
+.banner #banner_4
+{
+	
+	position: absolute;
+	margin-left: 1800px;
+	margin-top: -980px;
+	width: 100px;
+	height: 20px;
+	
+
+
+}
+.banner #banner_4  ul 
+{
+	margin: 0px;
+	padding: 0px;
+}
+.banner #banner_4 ul li 
+{
+	
+	float: left;
+	list-style: none;
+}
+
+.banner #banner_4 i 
+{
+
+	margin: 4px;
+	color: white;
+}
+
+
+
 .hop
 {
 	border-bottom: 1px solid #BBBBBB;
@@ -113,7 +148,7 @@ margin-left: 600px;
 	min-height: 80px;
 	border-width: 1px solid #BBBBBB;
 	border-left: 1px solid #BBBBBB;
-	margin-top: 400px;
+	margin-top: 320px;
 	margin-left: 360px;
 	
 
@@ -144,6 +179,7 @@ margin-left: 600px;
 	color:#333333;
 	margin-top: 14px;
 	font-weight: bold;
+
 	
 }
 .top p 
@@ -165,12 +201,13 @@ margin-left: 600px;
 
 .bellow_1 #tren h2
 {
-		width: 500px;
+		width: 700px;
 		text-align: center;
 		margin-top: 100px;
 		margin-left: 600px;
 		font-family: 'Cormorant', serif;
 		font-size: 30px;
+		font-weight: 550;
 
 
 }
@@ -196,21 +233,24 @@ margin-left: 600px;
 {
 	text-decoration: none;
 	color: #d6ba8d;
-	top: 1290px;
+	top: 1220px;
 	left: 220px;
 	position: absolute;
 	font-size: 20px;
 	margin-left: 60px;
 	margin-top: 550px;
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
 }
 .bellow_1 #giua_1 h5 
 {
 	text-decoration: none;
 	color: #333333;
 	margin-top:590px;
-	top: 1210px;
+	top: 1150px;
 	left: 200px;
-	font-family: 'Cormorant', serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600px;
 	font-size: 20px;
 	position: absolute;
 	margin-left: 60px;
@@ -243,7 +283,8 @@ margin-left: 600px;
 	margin-top:845px;
 	top: 1500px;
 	left: 500px;
-	font-family: 'Cormorant', serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600px;
 	font-size: 20px;
 	position: absolute;
 	 margin-left: 170px;
@@ -259,11 +300,13 @@ margin-left: 600px;
 	font-size: 20px;
 	margin-left: 130px;
 	margin-top: 800px;
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
  }
 
  .bellow_1 #giua_2 h2
  {
- 	width: 200px;
+ 	width: 250px;
  	font-size: 40px;
  	color: #333333;
  	top: 1400px;
@@ -271,8 +314,9 @@ margin-left: 600px;
  	position: absolute;
  	color: #333333;
  	font-family: 'Cormorant', serif;
+	
  	height: 300px;
- 	margin-left: 300px;
+ 	margin-left: 200px;
  	margin-top: 700px;
  
  }
@@ -287,7 +331,7 @@ margin-left: 600px;
  	color: #333333;
 	font-family: 'Fira Sans', sans-serif;
  	height: 300px; 
- 	margin-left: 300px;
+ 	margin-left: 200px;
  	margin-top: 730px;
 
  }
@@ -304,6 +348,7 @@ margin-left: 600px;
 	margin-left: 340px;	
 	text-align: center;
 	font-family: 'Garamond', serif;
+	font-weight: bold;
 	font-size: 30px;
 }
 .bellow_2 #giua_3 p
@@ -312,7 +357,7 @@ margin-left: 600px;
 	float: left;
 	margin-left: 900px;	
 	text-align: center;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: Myriad Pro;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
@@ -333,8 +378,8 @@ margin-left: 600px;
 	margin-top: 20px;
 	float: left;
 	list-style: none;
-	height: 316px;
-	width: 275px;
+	height: 330px;
+	width: 280px;
 	margin: 9px;
 
 }
@@ -368,16 +413,21 @@ margin-left: 600px;
 .bellow_2 #giua_tren h5 
 {
 	margin-top: -10px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600px;
 }
 .bellow_2 #giua_tren p
 {
 	color: #d6ba8d;
+	font-family: 'Garamond', serif;
+	font-weight: bold;
 }
 .bellow_2 #giua_tren_1
 {
 	position: relative;
 }
-.bellow_2 #hover
+
+.bellow_2 #hover_1
 {
 
 	margin-top: 235px;
@@ -386,18 +436,21 @@ margin-left: 600px;
 	position: absolute;
 	display: none;
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 button
 {
 
 	background: #d6ba8d;
-	
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
 	margin-left: 5px;
 	color: white;
-	margin-top: 48px;
+	margin-top: 58px;
 	float: left;
-	
+	height: 40px;
+	width: 156px;
 }
-#hover img
+
+#hover_1 img
 {
 	float: left;
 	margin-top: -100px;
@@ -410,28 +463,33 @@ margin-left: 600px;
 	padding: 2px;
 	background: #595858;
 
+
 }
 
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 
 }
-.bellow_2  #hover ul li i
+.bellow_2 #hover_1 #hovt
+{		
+	position: absolute;
+	margin-left:166px;
+	width: 300px;
+}
+.bellow_2  #hover_1 ul li i
 {
-	padding: 9px;
+	
+	padding: 12px;
 	float: left;
 	background: #595858;
 	margin: -3px;
 	margin: 7px;
-	margin-top: 48px;
-	margin-left: -13px;
-
-
-	
+	margin-top: 58px;
+	margin-left: -14px;
 }
-#giua_tren_1:hover #hover 
+#giua_tren_1:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -491,14 +549,11 @@ margin-left: 600px;
 	.bellow_2 #tong 
 	{
 		float: left;
-		margin-left: 2px;
+		margin-left: -100px;
 		margin-top: 150px;
 		position: absolute;
 		display: none;
-		width: 350px;
-		
-
-
+		width: 550px;
 	}
 	.bellow_2 #tong ul
 	{
@@ -516,11 +571,12 @@ margin-left: 600px;
 	{
 		
 
-		padding: 0px 110px 0px 40px;
+		
 		
 		text-decoration: none;
 		color: black;
 		font-weight: bold;
+		margin: 115px;
 
 	}
 
@@ -531,7 +587,7 @@ margin-left: 600px;
 	position: relative;
 }
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -540,20 +596,17 @@ margin-left: 600px;
 	position: absolute;
 	display: none;
 
-	
-	
-
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 120px;
 	height: 22px;
 	margin-left: 5px;
-	color: white;
+	color: black;
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -562,12 +615,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -575,7 +628,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_2:hover #hover 
+#giua_tren_2:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -590,7 +643,7 @@ margin-left: 600px;
 }
 
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -601,7 +654,7 @@ margin-left: 600px;
 
 }
 
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 120px;
@@ -610,7 +663,7 @@ margin-left: 600px;
 	color: white;
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -619,12 +672,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -632,7 +685,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_3:hover #hover 
+#giua_tren_3:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -647,7 +700,7 @@ margin-left: 600px;
 	position: relative;
 }
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -660,7 +713,7 @@ margin-left: 600px;
 	
 
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 120px;
@@ -670,7 +723,7 @@ margin-left: 600px;
 	font-family: ;
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -679,12 +732,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -692,7 +745,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_4:hover #hover 
+#giua_tren_4:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -707,7 +760,7 @@ margin-left: 600px;
 	position: relative;
 }
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -720,7 +773,7 @@ margin-left: 600px;
 	
 
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 200px;
@@ -731,7 +784,7 @@ margin-left: 600px;
 
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -740,12 +793,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -753,7 +806,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_5:hover #hover 
+#giua_tren_5:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -767,7 +820,7 @@ margin-left: 600px;
 	position: relative;
 }
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -780,7 +833,7 @@ margin-left: 600px;
 	
 
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 120px;
@@ -789,7 +842,7 @@ margin-left: 600px;
 	color: white;
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -798,12 +851,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -811,7 +864,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_6:hover #hover 
+#giua_tren_6:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -826,7 +879,7 @@ margin-left: 600px;
 	position: relative;
 }
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -840,7 +893,7 @@ margin-left: 600px;
 	
 
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 120px;
@@ -849,7 +902,7 @@ margin-left: 600px;
 	color: white;
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -858,12 +911,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -871,7 +924,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_7:hover #hover 
+#giua_tren_7:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -885,7 +938,7 @@ margin-left: 600px;
 	position: relative;
 }
 
-.bellow_2 #hover
+.bellow_2 #hover_1
 {
 	float: left;
 	margin-top: 235px;
@@ -898,7 +951,7 @@ margin-left: 600px;
 	
 
 }
-.bellow_2 #hover input
+.bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
 	width: 120px;
@@ -907,7 +960,7 @@ margin-left: 600px;
 	color: white;
 
 }
-.bellow_2 #hover img
+.bellow_2 #hover_1 img
 {
 	float: left;
 	background: #595959;
@@ -916,12 +969,12 @@ margin-left: 600px;
 	margin-top: 0px;
 	margin-left: -7px;
 }
-.bellow_2  #hover ul 
+.bellow_2  #hover_1 ul 
 {
 	margin: 0px;
 	padding: 0px;
 }
-.bellow_2 #hover ul li
+.bellow_2 #hover_1 ul li
 {
 	padding: 0px 2px 0px 2px;
 	margin: 2px;
@@ -929,7 +982,7 @@ margin-left: 600px;
 	float: left;
 
 }
-#giua_tren_8:hover #hover 
+#giua_tren_8:hover #hover_1 
 {
 	cursor: pointer;
 	display: block;
@@ -942,11 +995,10 @@ margin-left: 600px;
 
 .bellow_3 #tong 
 {
-	margin-top: 510px;
+	margin-top: 600px;
 	float: left;
 	background: #faf9f9;
 	width: 1980px;
-
 	height: 760px;
 	
 	
@@ -956,7 +1008,9 @@ margin-left: 600px;
 {
 	margin-top: -25px;
 	text-align: center;
-	font-family: 'Cormorant', serif;
+	font-family: 'Garamond', serif;
+	font-weight: bold;
+	font-size: 40px;
 }
 .bellow_3 #tong img
 {
@@ -987,18 +1041,23 @@ margin-left: 600px;
 
 .bellow_3 #tong p
 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: Myriad Pro;
 	color: #d6ba8d; 
+	font-size: 10px;
 }
 
+.bellow_3 #tong i 
+{
+	color: #92c5d9;
 
+}
 
 .bellow_3 #tong h2
 {
 
 	
 	color: black;
-	width: 230px;
+	width: 260px;
 	font-weight: bold;
 	font-family: 'Cormorant', serif;
 
@@ -1123,7 +1182,8 @@ margin-left: 600px;
 
 	margin-top: 73px;
 	color: #ababab;
-	font-family: Bahnschrift SemiBold;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
 	font-size: 15px;
 }
 .bellow_5 #tren p:hover 
@@ -1146,7 +1206,8 @@ margin-left: 600px;
 {
 	margin-top: 50px;
 	color: #ababab;
-	font-family: Myriad Pro;
+	font-family: 'Fira Sans', sans-serif;
+	
 	background: #333333;
 	width: 100px;
 	text-align: center;
@@ -1154,7 +1215,7 @@ margin-left: 600px;
 	width: 150px;
 	height: 40px;
 	letter-spacing: 2px;
-	font-weight: bold;
+	font-weight:bold;
 }
 .bellow_5 #duoi
 {
@@ -1183,7 +1244,7 @@ margin-left: 600px;
 	float: left;
 	margin-top: -150px;
 	margin-left: 1400px;
-	
+
 
 	
 
@@ -1202,14 +1263,16 @@ margin-left: 600px;
 #duoi_1 ul li  i
 {
 	padding: 20px;
-	border-radius: 80px solid grey;
+	border-radius: 80px;
 	background: #333333;
+	border: 1px solid white ;
 	
 
 
 
 }
-#duoi_1 ul li i:hover
+#duoi_1 ul li :hover
 {
+
 	color: #d6ba8d;
 }
