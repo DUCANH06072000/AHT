@@ -72,7 +72,7 @@ margin-left: 600px;
 {
 	position: absolute;
 	margin-left: 1150px;
-	margin-top: -200px;
+	margin-top: -270px;
 	font-family: 'Cormorant', serif;
 	font-size: 30px;
 }
@@ -90,7 +90,7 @@ margin-left: 600px;
 .banner #banner_3 a
 {
 	text-decoration: none;
-	line-height: 60px;
+	line-height: 70px;
 	color:#ded6c1;
 }
 .banner #banner_3 a:hover
