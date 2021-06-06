@@ -10,7 +10,7 @@
 	}
 	.banner 
 	{
-		background: red;
+		
 	}
 	.banner #banner_0
 	{
@@ -188,6 +188,7 @@ margin-left: -30px;
 	color:#333333;
 	margin-top: 14px;
 	font-weight: bold;
+	font-size: 6px;
 	
 }
 .top p 
