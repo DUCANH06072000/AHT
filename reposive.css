@@ -5,28 +5,41 @@
 	{
 		width: 100%;
 		height: 100%;
+	
+		
+	}
+	.banner 
+	{
+		background: red;
+	}
+	.banner #banner_0
+	{
+		width: 100%;
+		
 	}
 
 .banner #banner_0 img
 {
 	width:100%;
 	height: 100%;
+
+	
 }
 .banner #banner_2 img
 {
 	position: absolute;
-	margin-top: -250px;
-	margin-left: 10px;
+	margin-top: -180px;
+	margin-left: 2px;
 	width: 70px;
 	height: 20px;
 	
 }
 .banner #banner_1
 {
-width: 200px;
-margin-top:-250px;
-margin-left: 30px;
-background: green;
+width: 100px;
+margin-top:-220px;
+margin-left: -30px;
+
 
 }
 .banner #banner_1 h1
@@ -34,7 +47,7 @@ background: green;
 
 	padding-bottom: 30px;
 	color: #333333;
-	font-size: 20px;
+	font-size: 14px;
 	letter-spacing: 5px;
 	font-family: 'Cormorant', serif;
 	font-style: italic;
@@ -53,6 +66,7 @@ background: green;
 	letter-spacing: 2px;
 	margin-top: 100px;
 	margin-left: 130px;
+	width: 100px;
 
 }
 .banner #banner_1 button
@@ -71,8 +85,8 @@ background: green;
 .banner #banner_3 
 {
 	position: absolute;
-	margin-left: 400px;
-	margin-top: -115px;
+	margin-left: 345px;
+	margin-top: -88px;
 	font-family: 'Cormorant', serif;
 	font-size: 7px;
 }
@@ -103,13 +117,11 @@ background: green;
 {
 	
 	position: absolute;
-	margin-top: -800px;
-	margin-left: 200px;
-	width: 110px;
+	margin-top: -650px;
+	margin-left: 800px;
+	width: 20px;
 	height: 20px;
-	
-
-
+	background: red;
 }
 .banner #banner_4  ul 
 {
@@ -132,12 +144,10 @@ background: green;
 
 .hop
 {
-	border-bottom:1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
 	border-left: 1px solid #BBBBBB;
 	border-right:1px solid #BBBBBB;
 	width:100%;
-
-	
 }
 
 .top
@@ -147,8 +157,8 @@ background: green;
 	min-height: 80px;
 	border-left: 1px solid #BBBBBB;
 	margin-top: -3px;
-	margin-left: 80px;
-	width: 400px;
+	margin-left: 70px;
+	width: 250px;
 	
 }
 .top ul 
@@ -163,7 +173,7 @@ background: green;
 	text-decoration: none;
 	line-height: 30px;
 	margin-left:5px;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 5px 0px 5px;
 	/*border-right: 1px solid #BBBBBB;*/
 	color: #333333;
 	font-size: 6px;
@@ -176,7 +186,7 @@ background: green;
 {
 	font-family: 'Cormorant', serif;
 	color:#333333;
-	margin-top: 16px;
+	margin-top: 14px;
 	font-weight: bold;
 	
 }
@@ -189,10 +199,8 @@ background: green;
 }
 .bellow_1
 {
-	
 	width: 100%;
 	background-size: 100% 100%;
-	
 }
 .bellow_1 #giua
 {
@@ -204,7 +212,7 @@ background: green;
 		width: 300px;
 		text-align: center;
 		margin-top: 20px;
-		margin-left: 70px;
+		margin-left: 20px;
 		font-family: 'Cormorant', serif;
 		font-size:14px;
 		background-size: 100% 100%;
@@ -218,6 +226,7 @@ background: green;
 	margin-top: 10px;
 	float: left;
 	width: 100%;
+	
 	margin-left: -10px;
 	
 }
@@ -226,10 +235,11 @@ background: green;
 {
 	float: left;
 	position: relative;
-	margin: 5px;
+	margin: 7px;
 	list-style: none;
-	width: 150px;
-	height: 130px;
+	width: 110px;
+	height: 100px;
+	margin-top: 10px;
 }
 
 .bellow_1 #giua_1 p 
@@ -237,11 +247,11 @@ background: green;
 	text-decoration: none;
 	color: #d6ba8d;
 	top: -63px;
-	left: 1px;
+	left: -5px;
 	position: absolute;
-	font-size:9px;
-	margin-left: 60px;
-	margin-top: 540px;
+	font-size:7px;
+	margin-left: 50px;
+	margin-top:478px;
 	
 	
 }
@@ -249,11 +259,11 @@ background: green;
 {
 	text-decoration: none;
 	color: #333333;
-	margin-top:570px;
+	margin-top:515px;
 	top: -110px;
-	left: 35px;
+	left: 24px;
 	font-family: 'Cormorant', serif;
-	font-size: 10px;
+	font-size: 7px;
 	position: absolute;
 	margin-left: 7px;
 	
@@ -266,32 +276,34 @@ background: green;
 	height: 185px;
 	margin-left: -10px;
 	float: left;
-	width: 100%;	
-	margin-top: 20px;
-
+	width: 100%;
+	
+	margin-top: 10px;
+	
 }
 
 .bellow_1 #giua_2 img
 {
 	float: left;
 	position: relative;
-	margin: 5px;
+	margin: 7px;
 	list-style: none;
-	width: 150px;
-	height: 130px;
+	width: 110px;
+	height: 105px;
 }
  .bellow_1 #giua_2 h5
  {
  	text-decoration: none;
 	color: #333333;
-	margin-top: 940px;
-	top: -288px;
+	
+	top: -258px;
 	left: 15px;
 	font-family: 'Cormorant', serif;
-	font-size: 10px;
+	font-size: 7px;
 	position: absolute;
-	margin-left: 170px;
+	margin-left: 135px;
 	width: 200px;
+
 
  }
  .bellow_1 #giua_2 p
@@ -302,14 +314,14 @@ background: green;
 	left: 70px;
 	position: absolute;
 	font-size: 9px;
-	margin-left: 145px;
-	margin-top: 900px;
+	margin-left: 100px;
+	margin-top: 835px;
  }
 
  .bellow_1 #giua_2 h2
  {
- 	width: 100px;
- 	font-size: 14px;
+ 	width: 70px;
+ 	font-size: 10px;
  	color: #333333;
  	top: -35px;
 	left: -280px;
@@ -317,16 +329,16 @@ background: green;
  	color: #333333;
  	font-family: 'Cormorant', serif;
  	height: 300px;
- 	margin-left: 610px;
- 	margin-top: 635px;
+ 	margin-left: 530px;
+ 	margin-top: 590px;
 
 
  
  }
  .bellow_1 #giua_2 h6
  {
-	width: 60px;
- 	font-size:5px;
+	width: 40px;
+ 	font-size:4px;
  	color: #333333;
  	top: -11px;
 	left: -360px;
@@ -334,8 +346,8 @@ background: green;
  	color: #333333;
 	font-family: 'Fira Sans', sans-serif;
  	height: 300px; 
- 	margin-left: 690px;
- 	margin-top: 645px;
+ 	margin-left: 610px;
+ 	margin-top: 592px;
 
  }
 .bellow_1 #giua_2 h2:hover
@@ -346,20 +358,23 @@ background: green;
 .bellow_2
 {
 	
-	width:110%;
+	width:100%;
+
 	margin-left: -100px;
-	background: green;
+	
+	margin-top: 100px;
 
 }
 
 .bellow_2 #giua_3 h3
 {
-	margin-top: 20px;
+	margin-top: 30px;
 	float: left;
 	margin-left: 130px;	
 	text-align: center;
 	font-family: 'Garamond', serif;
 	font-size: 15px;
+
 	
 }
 .bellow_2 #giua_3 p
@@ -367,13 +382,14 @@ background: green;
 	
 	margin-top: -10px;
 	float: left;
-	margin-left: 300px;	
+	margin-left: 180px;	
 	text-align: center;
 	font-family: 'Fira Sans', sans-serif;
 	color: black;
-	font-size: 8px;
+	font-size: 6px;
 	font-weight: bold;
 	width: 180px;
+	
 }
 .bellow_2 #giua_3 i
 {
@@ -385,9 +401,10 @@ background: green;
 	
 	height: 600px;
 	float: left;
-	width: 90%;
+	width: 100%;
+	
 	margin-left: 100px;
-	margin-top: 10px;
+	margin-top: 20px;
 	
 	
 	
@@ -399,7 +416,7 @@ background: green;
 	float: left;
 	list-style: none;
 	height: 120px;
-	width: 105px;
+	width: 100px;
 	margin: 15px;
 
 }
@@ -417,8 +434,8 @@ background: green;
 	margin-top: 50px;
 	text-decoration: none;
 	line-height: 20px;
-	padding: 0px 8px 0px 8px;
-	margin: 2px;
+	padding: 0px 1px 0px 1px;
+	margin: -4px;
 
 	color: #333333;
 	font-size: 17px;
@@ -450,12 +467,12 @@ background: green;
 	background: #d6ba8d;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: bold;
-	margin-left: 3px;
+	margin-left: 14px;
 	color: white;
-	margin-top: -172px;
+	margin-top: -165px;
 	float: left;
 	height: 20px;
-	width: 42px;
+	width: 40px;
 	font-size: 7px;
 
 }
@@ -466,6 +483,8 @@ background: green;
 	color: white;
 	padding: 2px;
 	background: #595858;
+	margin-left: 4px;
+
 	
 
 
@@ -474,8 +493,8 @@ background: green;
 .bellow_2 #hover_1
 {
 	margin-left: 1px;
-	width: 300px;
 	margin-top: 285px;
+	
 	}
 .bellow_2  #hover_1 ul 
 {
@@ -488,26 +507,25 @@ background: green;
 	float: left;
 	list-style: none;
 	
-	
-	
 }
 .bellow_2 #hover_1  #hovt
 {
-	margin-left: 155px;
-	margin-top: 37px;
+	margin-left: 50px;
+	margin-top: -169px;
+	
+	width: 100px;
+	
 }
 
 .bellow_2  #hover_1 ul li i
 {
 	
 	padding: 1px;
-	margin: -50px;
+	margin: 4px;
 	background: #595858;
-	margin-top: -208px;
-	margin-left: -130px;
+	
 	border: 1px solid:  white;
-
-
+	float: left;
 }
 #giua_tren_1:hover #hover_1 
 {
@@ -570,10 +588,11 @@ background: green;
 	{
 		float: left;
 		margin-left: -24px;
-		margin-top: 50px;
+		margin-top: 60px;
 		position: absolute;
 		display: none;
 		width:60%;
+
 		
 	}
 	.bellow_2 #tong ul
@@ -595,7 +614,7 @@ background: green;
 		text-decoration: none;
 		color: black;
 		font-weight: bold;
-		margin: 33px;
+		margin: 40px;
 
 	}
 
@@ -1018,7 +1037,7 @@ background: green;
 	float: left;
 	background: #faf9f9;
 	width: 100%;
-	height: 300px;
+	height: 260px;
 }
 .bellow_3 #tong_1
 {
@@ -1031,12 +1050,13 @@ background: green;
 	font-family: 'Garamond', serif;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: -40px;
+	margin-left: 10px;
+
 }
 .bellow_3 #tong img
 {
-	width: 112px;
-	height: 65px;
+	width: 90px;
+	height: 50px;
 	margin-left: -25px;
 }
 .bellow_3 #tong ul
@@ -1048,17 +1068,19 @@ background: green;
 {
 	list-style: none;
 	float: left;
-	width: 120px;
+	width: 100px;
 	height: 150px;
 	margin: 9px;
+
 	
 }
 .bellow_3 #tong p
 {
 	font-family: Myriad Pro;
 	color: #d6ba8d; 
-	font-size: 6px;
+	font-size: 4px;
 	margin-left: -26px;
+
 }
 
 .bellow_3 #tong i 
@@ -1072,7 +1094,7 @@ background: green;
 
 	
 	color: black;
-	width: 100px;
+	width: 80px;
 	font-weight: bold;
 	font-family: 'Cormorant', serif;
 	font-size: 8px;
@@ -1086,16 +1108,16 @@ background: green;
 	float: left;
 	margin-top: 20px;
 	border-top: 1px solid gray;
-	width: 90px;
-	margin-left:-20px;
-	font-size: 12px;
+	width: 40px;
+	margin-left:-10px;
+	font-size: 6px;
 	
 }
 .bellow_3 #tong #duoi h6
 {
 
 	
-		font-family: 'Cormorant', serif;
+	font-family: 'Cormorant', serif;
 	color:black; 
 	float: left;
 	margin: 1px;
@@ -1106,12 +1128,12 @@ background: green;
 {
 
 	text-align: center;
-	margin-top:80px;
-	margin-left: 200px;
+	margin-top: 50px;
+	margin-left: 150px;
 	
 	font-family: 'Cormorant', serif;
 	color: black;
-	width:90px;
+	width:80px;
 	height: 20px;
 	font-weight: bold;
 }
@@ -1122,8 +1144,8 @@ background: green;
 	width: 100%;
 	height: 200px;
 	
-	margin-left: -2px;	
-	margin-top: 14px;
+	margin-left: -10px;	
+	margin-top: 25px;
 }
 .bellow_4 ul 
 {
@@ -1140,18 +1162,20 @@ background: green;
 {
 
 	padding: 0px 27px 0px 10px;
-	width: 90px;
-	height: 50px;
+	width: 70px;
+	height: 30px;
 	background: #ffffff;
+	margin-top: 21px;
+	
 	
 	margin: 15px;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .bellow_5 
 {
-	background: #333333;
-	height: 418px;
-	width: 100%;
+	/*background: #333333;*/
+	height: 200px;
+	width: 97%;
 	float: left;
 	
 }
@@ -1159,9 +1183,8 @@ background: green;
 {
 
 	height: 250px;
-	width: 98%;	
+	width: 100%;	
 	margin-left: 2px;
-	
 	
 	}
 .bellow_5 #tren ul
@@ -1174,10 +1197,13 @@ background: green;
 {
 	list-style: none;
 	float: left;
-	padding: 0px 5px 0px 5px;
+	padding: 0px 1px 0px 1px;
 	margin: 2px;
 	margin-top: 40px;
 	margin-left: 15px;
+	
+	width: 30px;
+	height: 10px;
 	
 
 
@@ -1186,13 +1212,13 @@ background: green;
 {
 	list-style: none;
 	float: left;
-	padding: 0px -2px 0px -2px;
-	margin: -10px;
-	margin-top: 30px;
-	margin-left: 2px;
-	font-size: 9px;
-	width: 20px;
+	padding: 0px 30px 0px 30px;
 	
+	margin-top: 30px;
+	margin-left: -40px;
+	font-size: 8px;
+	
+
 	
 }
 
@@ -1217,21 +1243,21 @@ background: green;
 .bellow_5 #tren img
 {
 
-	width: 90px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	margin-left: -10px;
-	margin-top: -10px;
+	margin-top: 1px;
 }
 .bellow_5 #tren button
 {
-	margin-top: 10px;
+	margin-top: 25px;
 	color: #ababab;
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 6px;
 	background: #333333;
 	width: -100px;
 	text-align: center;
-	margin-left: 230px;
+	margin-left: 2px;
 	width: 60px;
 	height: 15px;
 
@@ -1239,27 +1265,27 @@ background: green;
 }
 .bellow_5 #duoi
 {
-	height: 150px;
+	height: 250px;
 	width: 50%;
 	border-top:1px solid black;
 	margin-left: 10px;
-	margin-top: -30px;
+	margin-top: -140px;
 }
 .bellow_5 #duoi p 
 {
-	width:60%;
+	width:90%;
 	color: #636363;
 	margin-top: 10px;
 	font-family: 'Fira Sans', sans-serif;
 	
-	font-size: 12px;
+	font-size: 9px;
 }
 
 #duoi_1
 {
-	margin-left: 100px;
-	width: 300px;
-	margin-top: -10px;
+	margin-left: 200px;
+	margin-top: -200px;
+	width: 200px;
 }
 #duoi_1 ul
 {
@@ -1274,9 +1300,10 @@ background: green;
 }
 #duoi_1 ul li  i
 {
-	padding: 11px;
+	padding: 6px;
 	border-radius: 80px solid grey;
 	background: #333333;
+
 
 	
 }
