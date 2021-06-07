@@ -195,7 +195,7 @@ margin-left: 600px;
 		
 		margin-top: 70px;
 		
-		background: green;
+		
 
 }
 
@@ -1000,6 +1000,7 @@ margin-left: 600px;
 	background: #faf9f9;
 	width: 1980px;
 	height: 760px;
+	margin-left: 100px;
 	
 	
 
@@ -1014,10 +1015,10 @@ margin-left: 600px;
 }
 .bellow_3 #tong img
 {
-	width: 382px;
-	height: 244px;
+	width: 350px;
+	height: 217px;
 	margin: auto;
-	margin-left: -20px;
+	margin-left: -25px;
 }
 .bellow_3 #tong ul 
 {
@@ -1028,7 +1029,7 @@ margin-left: 600px;
 {
 	list-style: none;
 	padding: 0px 30px 0px 30px;
-	width: 338px;
+	width: 358px;
 	height: 454px;
 	background: #ffffff;
 	float: left;
