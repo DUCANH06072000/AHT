@@ -33,6 +33,7 @@ margin-left: 150px;
 	font-style: italic;
 
 }
+
 .banner #banner_1 h6
 {
 	
@@ -54,6 +55,7 @@ margin-left: 150px;
 	font-family: 'Fira Sans', sans-serif;
 	letter-spacing: 1px;
 	margin-left: -100px;
+	font-size: 12px;
 	margin-top: -200px;
 }
 .banner #banner_2 img
@@ -68,8 +70,8 @@ margin-left: 150px;
 .banner #banner_3 
 {
 	position: absolute;
-	margin-left: 40%;
-	margin-top: -130px;
+	margin-left: 43%;
+	margin-top: -110px;
 	font-family: 'Cormorant', serif;
 	font-size: 15px;
 
@@ -170,11 +172,7 @@ margin-left: 150px;
 	margin-top: -14px;
 	
 }
-.bellow_1 
-{
-	
-	
-}
+
 .bellow_1 #tren h2
 {
 		width: 300px;
@@ -245,7 +243,6 @@ margin-left: 150px;
 	width: 100%;
 	margin-top: 360%;
 	
-
 }
 
 .bellow_1 #giua_2 img
@@ -298,7 +295,7 @@ margin-left: 150px;
 	
  	height: 300px;
  	margin-left: 200px;
- 	margin-top: 700px;
+ 	margin-top: 200px;
  
  }
  .bellow_1 #giua_2 h6
@@ -313,13 +310,15 @@ margin-left: 150px;
 	font-family: 'Fira Sans', sans-serif;
  	height: 300px; 
  	margin-left: 90%;
- 	margin-top: 730px;
+ 	margin-top: 640px;
+
+ 	
 
  }
  .bellow_2
  {
  	width: 100%;
- 	background: green;
+ 	
  }
  .bellow_2 #giua_3 h3
 {
@@ -361,6 +360,84 @@ margin-left: 150px;
 	margin: 9px;
 	margin-left: 2px;
 }
+.bellow_2 #hover_1
+{
+	float: left;
+	margin-top: 235px;
+	margin-left: 2px;
+	
+	position: absolute;
+	display: none;
+
+}
+
+
+
+.bellow_2 #hover_1 input
+{
+	background: #d6ba8d;
+	width: 120px;
+	height: 22px;
+	margin-left: 5px;
+	color: white;
+
+}
+.bellow_2 #hover_1 img
+{
+	float: left;
+	background: #595959;
+	width: 22px;
+	height: 22px;
+	margin-top: 0px;
+	margin-left: -7px;
+}
+.bellow_2  #hover_1 ul 
+{
+	margin: 0px;
+	padding: 0px;
+}
+.bellow_2 #hover_1 ul li
+{
+	padding: 0px 2px 0px 2px;
+	margin: 2px;
+	list-style: none;
+	float: left;
+
+}
+.bellow_2 #tong 
+	{
+		float: left;
+		margin-left: -100px;
+		margin-top: 150px;
+		position: absolute;
+		display: none;
+		width: 450px;
+		
+	}
+	.bellow_2 #tong ul
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	.bellow_2 #tong ul li 
+	{
+		
+		list-style: none;
+		float: left;
+
+	}
+
+
+	.bellow_2 #tong ul li a
+	{
+		overflow: hidden;
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+		margin: 80px;
+		margin-left: 120px;
+
+	}
 
 .bellow_3 #tong 
 {
@@ -533,13 +610,8 @@ margin-left: 150px;
 {
 	float: left;
 	margin-top: -190px;
-	margin-left: 100px;
-	
+	margin-left: 110px;
 	width: 70%;
-
-
-	
-
 }
 #duoi_1 ul
 {
@@ -599,6 +671,253 @@ margin-left: 150px;
  	margin-top: 730px;
 
  }
+}
+@media only screen and (max-width: 360px)
+{
+	body
+	{
+		width: 100%;		
+	}
+	
+
+.banner #banner_0 img
+{
+	width: 120%;
+	height: 200% ;
+	
+}
+.banner #banner_2 img
+{
+	position: absolute;
+	margin-top: -60%;
+	margin-left: 20px;
+	background: green;
+	border-radius:60px;
+	width: 100px;
+}
+.banner #banner_1 h1
+{
+	padding-top: -500px;
+	padding-bottom: 30px;
+	color: #333333;
+	font-size: 20px;
+	letter-spacing: 4px;
+	width: 150px;
+	margin-left: -100px;
+	font-family: 'Cormorant', serif;
+	font-style: italic;
+	background: green;
+	height: 70px;
+}
+.banner #banner_1 h6
+{
+	color: #696969;
+	font-size: 10px;
+	font-family: 'Fira Sans', sans-serif;
+	letter-spacing: 2px;
+	margin-left: -100px;
+}
+.banner #banner_1 button
+{
+	
+	font-weight: bold;
+	background: #333333;
+	color: white;
+	width:140px;
+	height: 20px;
+	font-family: 'Fira Sans', sans-serif;
+	letter-spacing: 1px;
+	margin-left: -100px;
+	margin-top: -250px;
+}
+.banner #banner_1
+{
+width: 20%;
+margin-top: -140px;
+margin-left: 170px;
+}
+.banner #banner_3 
+{
+	position: absolute;
+	margin-left: 50%;
+	margin-top: -90px;
+	font-family: 'Cormorant', serif;
+	font-size: 12px;
+
+}
+.banner #banner_3 ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.banner #banner_3 ul li 
+{
+	list-style: none;
+
+}
+.banner #banner_3 a
+{
+	text-decoration: none;
+	line-height: 25px;
+	color:#ded6c1;
+}
+.banner #banner_4
+{
+	
+	position: absolute;
+	margin-left: 100%;
+	margin-top: -180px;
+	width: 60px;
+	height: 20px;
+}
+.hop
+{
+	overflow: hidden;
+	width: 120%;
+}
+.bellow_1 #giua_1 img
+{
+	float: left;
+	position: relative;
+	
+	list-style: none;
+	width: 120%;
+	height: 500px;
+}
+.bellow_1 #giua_2
+{
+	margin-left: -20px;
+	float: left;
+	width: 100%;
+	margin-top: 420%;
+	
+}
+.bellow_1 #giua_2 img
+{
+	float: left;
+	position: relative;
+	
+	list-style: none;
+	width: 120%;
+	height: 500px;
+}
+ .bellow_1 #giua_2 h5
+ {
+ 	text-decoration: none;
+	color: #333333;
+	margin-top:260%;
+	top: 2450px;
+	left: -80px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600px;
+	font-size: 20px;
+	position: absolute;
+	 margin-left: 60%;
+
+ }
+ .bellow_1 #giua_2 p
+ {
+ 	text-decoration: none;
+	color: #d6ba8d;
+	top: 2530px;
+	left: 20px;
+	position: absolute;
+	font-size: 20px;
+	margin-left: 45%;
+	margin-top: 245%;
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
+ }
+
+ .bellow_1 #giua_2 h2
+ {
+ 	width: 250px;
+ 	font-size: 40px;
+ 	color: #333333;
+ 	top: 2950px;
+	left: -180px;
+ 	position: absolute;
+ 	color: #333333;
+ 	font-family: 'Cormorant', serif;
+	
+ 	height: 300px;
+ 	margin-left: 200px;
+ 	margin-top: 700px;
+ 
+ }
+ .bellow_1 #giua_2 h6
+ {
+	width: 200px;
+ 	font-size: 15px;
+ 	color: #333333;
+ 	top: 3020px;
+	left: -180px;
+ 	position: absolute;
+ 	color: #333333;
+	font-family: 'Fira Sans', sans-serif;
+ 	height: 300px; 
+ 	margin-left: 65%;
+ 	margin-top: 730px;
+
+ }
+ .bellow_2 #giua_tren
+{
+	
+	margin-top: 20%;
+	margin-left: 40px;
+	float: left;
+	width: 90%;
+}
+.bellow_2 #giua_3 p
+{
+	margin-top: -7%;
+	float: left;
+	margin-left: 250px;	
+	text-align: center;
+	font-family: Myriad Pro;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	width: 80px;
+}
+.bellow_3 #tong 
+{
+	margin-top: 2900px;
+	float: left;
+	background: #faf9f9;
+	width: 120%;
+	height: 1700px;
+	margin-left: -10px;
+
+}
+.bellow_3 h1
+{
+	margin-left: 10%;
+}
+.bellow_3 img 
+{
+	width: 103%;
+}
+.bellow_3 input
+{
+	margin-top: 2%;
+}
+.bellow_4
+{
+	float: left;
+	text-align: center;
+	width: 120%;
+	height: 400px;
+	margin-left: 2px;
+	margin-top: 50px;
+}
+.bellow_5 
+{
+	background: #333333;
+	height: 500px;
+	width: 120%;
+	float: left;
+}
 }
 
 
