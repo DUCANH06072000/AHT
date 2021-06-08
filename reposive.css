@@ -1,9 +1,10 @@
-@media screen and (max-width: 576px)
+@media only screen and (max-width: 575px)
 {
 	body
 	{
 		width: 100%;
-		height: 10000px;
+
+		
 	}
 	
 
@@ -95,7 +96,7 @@ margin-left: 150px;
 	position: absolute;
 	margin-left: 80%;
 	margin-top: -180px;
-	width: 50px;
+	width: 60px;
 	height: 20px;
 }
 .banner #banner_4  ul 
@@ -121,6 +122,7 @@ margin-left: 150px;
 {
 	overflow: hidden;
 	width: 100%;
+
 }
 .top
 {
@@ -143,7 +145,7 @@ margin-left: 150px;
 	text-decoration: none;
 	line-height: 40px;
 	margin-left: 10px;
-	padding: 0px 101px 0px 101px;
+	padding: 0px 122px 0px 122px;
 	
 	color: #333333;
 	font-size: 17px;
@@ -259,14 +261,14 @@ margin-left: 150px;
  {
  	text-decoration: none;
 	color: #333333;
-	margin-top:845px;
+	margin-top:240%;
 	top: 2450px;
 	left: -80px;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 600px;
 	font-size: 20px;
 	position: absolute;
-	 margin-left: 170px;
+	 margin-left: 50%;
 
  }
  .bellow_1 #giua_2 p
@@ -277,8 +279,8 @@ margin-left: 150px;
 	left: 20px;
 	position: absolute;
 	font-size: 20px;
-	margin-left: 130px;
-	margin-top: 800px;
+	margin-left: 40%;
+	margin-top: 225%;
 	font-family: 'Cormorant', serif;
 	font-weight: bold;
  }
@@ -310,7 +312,7 @@ margin-left: 150px;
  	color: #333333;
 	font-family: 'Fira Sans', sans-serif;
  	height: 300px; 
- 	margin-left: 200px;
+ 	margin-left: 90%;
  	margin-top: 730px;
 
  }
@@ -321,7 +323,7 @@ margin-left: 150px;
  }
  .bellow_2 #giua_3 h3
 {
-	margin-top: 1500px;
+	margin-top: 1490px;
 	float: left;
 	margin-left: 20px;	
 	text-align: center;
@@ -333,11 +335,11 @@ margin-left: 150px;
 {
 	margin-top: 1500px;
 	float: left;
-	margin-left: 25px;	
+	margin-left: 50px;	
 	text-align: center;
 	font-family: Myriad Pro;
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 
 }
@@ -345,9 +347,9 @@ margin-left: 150px;
 {
 	
 	margin-top: 50px;
-	margin-left: 10px;
+	margin-left: 40px;
 	float: left;
-	width: 100%;
+	width: 90%;
 }
 .bellow_2 #giua_tren img
 {
@@ -355,7 +357,7 @@ margin-left: 150px;
 	float: left;
 	list-style: none;
 	height: 330px;
-	width: 280px;
+	width: 290px;
 	margin: 9px;
 	margin-left: 2px;
 }
@@ -365,10 +367,14 @@ margin-left: 150px;
 	margin-top: 2900px;
 	float: left;
 	background: #faf9f9;
-	width: 100%;
+	width: 105%;
 	height: 1700px;
 	margin-left: -10px;
 
+}
+.bellow_3 #tong img 
+{
+	width: 115%;
 }
 .bellow_3 #tong ul 
 {
@@ -379,7 +385,7 @@ margin-left: 150px;
 {
 	list-style: none;
 	padding: 0px 30px 0px 30px;
-	width: 95%;
+	width: 96%;
 	height: 454px;
 	background: #ffffff;
 	
@@ -401,11 +407,11 @@ margin-left: 150px;
 
 	text-align: center;
 	margin-top: 118px;
-	margin-left: 120px;
+	margin-left: 100px;
 	background: #eae9e9;
 	font-family: 'Cormorant', serif;
 	color: black;
-	width: 110px;
+	width: 200px;
 	height: 22px;
 	font-weight: bold;
 }
@@ -415,8 +421,7 @@ margin-left: 150px;
 	text-align: center;
 	width: 90%;
 	height: 400px;
-	
-	margin-left: 10px;
+	margin-left: 30px;
 	margin-top: 50px;
 	
 	
@@ -459,7 +464,7 @@ margin-left: 150px;
 	width: 90%;	
 	
 
-	margin-left: 20px;
+	margin-left: 18px;
 }
 .bellow_5 #tren ul
 {
@@ -471,7 +476,7 @@ margin-left: 150px;
 {
 	list-style: none;
 	float: left;
-	padding: 0px 2px 0px 2px;
+	padding: 0px 20px 0px 20px;
 	margin: 2px;
 	margin-top: 40px;
 	margin-left: 80px;
@@ -480,27 +485,24 @@ margin-left: 150px;
 {
 	list-style: none;
 	float: left;
-	width: 100px;
+	width: 50px;
 	margin-top: -40px;
 	
-	margin: -100px;
+	padding: 0px 2px 0px 2px;
+	margin: -20px;
 	margin-top: 10px;
 	margin-left: -10px;
 	font-size: 12px;
 
-	
-
-	
-
 }
 .bellow_5 #tren button
 {
-	margin-top: 40px;
+	margin-top: 10px;
 	color: #ababab;
 	font-family: 'Fira Sans', sans-serif;
 	
 	background: #333333;
-	width: 100px;
+	
 	text-align: center;
 	margin-left: 1px;
 	width: 150px;
@@ -530,7 +532,7 @@ margin-left: 150px;
 #duoi_1
 {
 	float: left;
-	margin-top: -200px;
+	margin-top: -190px;
 	margin-left: 100px;
 	
 	width: 70%;
@@ -552,22 +554,51 @@ margin-left: 150px;
 }
 #duoi_1 ul li  i
 {
-	padding: 10px;
+	padding: 9px;
 	border-radius: 80px;
 	background: #333333;
 	border: 1px solid white ;
 	
-
-	
-
-
-
 }
 #duoi_1 ul li :hover
 {
 
 	color: #d6ba8d;
 }
+}
+@media only screen and (max-width: 420px)
+{
+	 .bellow_1 #giua_2 h2
+ {
+ 	width: 250px;
+ 	font-size: 40px;
+ 	color: #333333;
+ 	top: 3100px;
+	left: -180px;
+ 	position: absolute;
+ 	color: #333333;
+ 	font-family: 'Cormorant', serif;
+	
+ 	height: 300px;
+ 	margin-left: 200px;
+ 	margin-top: 700px;
+ 
+ }
+ .bellow_1 #giua_2 h6
+ {
+	width: 200px;
+ 	font-size: 15px;
+ 	color: #333333;
+ 	top: 3020px;
+	left: -180px;
+ 	position: absolute;
+ 	color: #333333;
+	font-family: 'Fira Sans', sans-serif;
+ 	height: 300px; 
+ 	margin-left: 200px;
+ 	margin-top: 730px;
+
+ }
 }
 
 
