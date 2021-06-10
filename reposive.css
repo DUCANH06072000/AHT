@@ -4,7 +4,6 @@
 	{
 		width: 100%;
 
-		
 	}
 	
 
@@ -226,6 +225,79 @@ margin-left: 150px;
 	margin-left: 60px;
 }
 
+.bellow_1 #giua_1 #giua_1_1 h5
+{
+	position: absolute;
+	margin-top: 930px;
+	margin-left: 200px;
+	font-size: 12px;
+	width: 80px;
+	font-family: 'Fira Sans', serif;
+	letter-spacing: 1px;
+	
+}
+
+.bellow_1 #giua_1 #giua_1_1 h1 
+{
+	position: absolute;
+	margin-top: 730px;
+	margin-left: 260px;
+	font-size:70px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+}
+.bellow_1 #giua_1 #giua_1_1 h4
+{
+	position: absolute;
+	margin-top: 830px;
+	margin-left: 260px;
+	font-size: 12px;
+	width: 130px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	color: #818181;
+	
+	
+}
+
+.bellow_1 #giua_1 #giua_1_1 h3
+{
+	position: absolute;
+	margin-top: 930px;
+	margin-left: 290px;
+	font-size: 10px;
+	font-family: 'Fira Sans', serif;
+	font-weight: bold;
+	color: #818181;
+}
+
+.bellow_1 #giua_1 #giua_1_2 h3
+{
+	position: absolute;
+	margin-top: 1480px;
+	margin-left: 60px;
+	font-size: 55px;
+	width: 290px;
+	font-family: 'Fira Sans', serif;
+	font-weight: bold;
+	letter-spacing: 6px;
+	color: #d6ba8d;
+
+
+}
+.bellow_1 #giua_1 #giua_1_2 h5
+{
+	position: absolute;
+	margin-top: 1680px;
+	margin-left: -10px;
+	font-size: 15px;
+	width: 150px;
+	font-family: 'Fira Sans', serif;
+	letter-spacing: 3px;
+	color: #5b5b5b;
+	
+}
+
 .bellow_1 #giua_1 img
 {
 	float: left;
@@ -380,7 +452,7 @@ margin-left: 150px;
 .bellow_2 #hover_1 input
 {
 	background: #d6ba8d;
-	width: 120px;
+	width: 220px;
 	height: 22px;
 	margin-left: 5px;
 	color: white;
