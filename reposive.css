@@ -292,12 +292,16 @@ margin-left: 150px;
  	position: absolute;
  	color: #333333;
  	font-family: 'Cormorant', serif;
-	
  	height: 300px;
  	margin-left: 200px;
  	margin-top: 200px;
  
  }
+ .bellow_1 #giua_2 h2:hover
+{
+
+	color: red;
+}
  .bellow_1 #giua_2 h6
  {
 	width: 200px;
