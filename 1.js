@@ -20,13 +20,10 @@
 		$('.nen_1').addClass('hienra');
 	});
 	$('.btn-close').click(function(event) {
-		$('.hop-thoai').removeClass('hien-ra');
-		$('.nen-mo').removeClass('hien-ra');
+		$('.hop-thoai').removeClass('hienra');
+		$('.nen_1').removeClass('hienra');
 	});
-	$('.nen-mo').click(function(event) {
-		$('.hop-thoai').removeClass('hien-ra');
-		$('.nen-mo').removeClass('hien-ra');
-	});
+	
 });
 
 

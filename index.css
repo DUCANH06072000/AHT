@@ -14,27 +14,40 @@
 }
 .hop-thoai
 {
-	   width:  400px;
-    height: 150px;
-   background: white;
-    border-radius:  2px;
+	   width:  500px;
+    height: 250px;
+   background: #d0d0d0;
+    border-radius:  40px;
     box-shadow:  1px 5px 5px rgb(0,0,0,0.15);
     position:  fixed;
-    top: 50%;
+    top: 30%;
     left:  40%;
    	opacity: 0;
 	visibility: hidden;
 	z-index: 2;
+	font-weight: bold;
+	transition: 0.6s;
+	transform: translateY(500px);
+
+}
+.hop-thoai button
+{
+	padding: 2px;
+	border-radius: 40px;
+	background: #d0d0d0;
+	margin-left: 450px;
 }
 
 .form_login
 {
-	margin-left:50px;
+	margin-left:120px;
 	line-height: 30px;
+	margin-top: 20px
 }
 .form_login h2
 {
-	margin-left: 90px;
+	font-size: 30px;
+	margin-left: 100px;
 	font-family:times new roman;
 	font-style: italic;
 }
@@ -48,6 +61,7 @@
 	font-style: italic;
 	color: white;
 	cursor: pointer;
+	margin-left: 10px;
 }
 
 .form_login input
@@ -58,6 +72,7 @@
 	font-family:times new roman;
 	font-style: italic;
 	width: 200px;
+
 
 }
 .hienra{
