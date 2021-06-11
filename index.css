@@ -1,6 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Fira+Sans&display=swap');
 
+/*jquery đăng nhập*/
+.nen_1 
+{
+	width: 100%;
+	height: 100%;
+	background: #69686870;
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1;
+}
+.hop-thoai
+{
+	   width:  400px;
+    height: 150px;
+   background: white;
+    border-radius:  2px;
+    box-shadow:  1px 5px 5px rgb(0,0,0,0.15);
+    position:  fixed;
+    top: 50%;
+    left:  40%;
+   	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+}
+
+.form_login
+{
+	margin-left:50px;
+	line-height: 30px;
+}
+.form_login h2
+{
+	margin-left: 90px;
+	font-family:times new roman;
+	font-style: italic;
+}
+.form_login button
+{
+	width: 264px;
+	height: 30px;
+	border-radius: 30px;
+	background: #17b080;
+	font-family:times new roman;
+	font-style: italic;
+	color: white;
+	cursor: pointer;
+}
+
+.form_login input
+{
+	border-radius: 20px;
+	height: 25px;
+	text-align: center;
+	font-family:times new roman;
+	font-style: italic;
+	width: 200px;
+
+}
+.hienra{
+	opacity: 1;
+    visibility: visible;
+    transition: 0.6s;
+    transform: translateY(0px);
+}
+
 *
 {
 	margin: 0px;
@@ -12,6 +78,8 @@ body
 {
 	width: 1920px;
 	height: 1000px;
+	z-index: 1;
+
 	
 }
 .banner #banner_0 img
@@ -74,6 +142,12 @@ margin-left: 520px;
 	letter-spacing: 5px;
 	margin-left: -100px;
 	margin-top: 200px;
+	cursor: pointer;
+
+}
+.banner #banner_1 button: hover
+{
+	color: green;
 }
 .banner #banner_3 
 {
