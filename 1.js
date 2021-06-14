@@ -23,6 +23,18 @@
 		$('.hop-thoai').removeClass('hienra');
 		$('.nen_1').removeClass('hienra');
 	});
+
+
+	$('.btn_giohang').click(function(event) {
+		$('.giohang').addClass('hienra_1');
+
+
+	});
+	$('.exit').click(function(event) {
+		$('.giohang').removeClass('hienra_1');
+
+
+	});
 	
 });
 

@@ -5,7 +5,15 @@
 		width: 100%;
 
 	}
-	
+.giohang
+{
+	margin-left: -400px;
+}	
+.hop-thoai
+{
+	margin-left: -200px;
+
+}	
 
 .banner #banner_0 img
 {
@@ -19,7 +27,7 @@ width: 20%;
 margin-top: -150px;
 margin-left: 150px;
 }
-.banner #banner_1 h1
+.banner #banner_1 h2
 {
 	padding-top: -500px;
 	padding-bottom: 30px;
@@ -172,14 +180,14 @@ margin-left: 150px;
 	
 }
 
-.bellow_1 #tren h2
+.bellow_1 #tren h4
 {
 		width: 300px;
 		text-align: center;
 		margin-top: 50px;
 		margin-left: 10%;
 		font-family: 'Cormorant', serif;
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: 550;
 
 
@@ -211,7 +219,7 @@ margin-left: 150px;
 	font-family: 'Cormorant', serif;
 	font-weight: bold;
 }
-.bellow_1 #giua_1 h5 
+.bellow_1 #giua_1 h4 
 {
 	text-decoration: none;
 	color: #333333;
@@ -225,11 +233,11 @@ margin-left: 150px;
 	margin-left: 60px;
 }
 
-.bellow_1 #giua_1 #giua_1_1 h5
+.bellow_1 #giua_1 #giua_1_1 h6
 {
 	position: absolute;
-	margin-top: 930px;
-	margin-left: 200px;
+	margin-top: 700px;
+	margin-left: 300px;
 	font-size: 12px;
 	width: 80px;
 	font-family: 'Fira Sans', serif;
@@ -249,10 +257,10 @@ margin-left: 150px;
 .bellow_1 #giua_1 #giua_1_1 h4
 {
 	position: absolute;
-	margin-top: 830px;
-	margin-left: 260px;
-	font-size: 12px;
-	width: 130px;
+	margin-top: 1070px;
+	margin-left: 170px;
+	font-size: 8px;
+	width: 120px;
 	font-family: 'Cormorant Garamond', serif;
 	font-weight: bold;
 	color: #818181;
@@ -288,10 +296,10 @@ margin-left: 150px;
 .bellow_1 #giua_1 #giua_1_2 h5
 {
 	position: absolute;
-	margin-top: 1680px;
-	margin-left: -10px;
+	margin-top: 1450px;
+	margin-left: 60px;
 	font-size: 15px;
-	width: 150px;
+	width: 200px;
 	font-family: 'Fira Sans', serif;
 	letter-spacing: 3px;
 	color: #5b5b5b;
@@ -326,7 +334,7 @@ margin-left: 150px;
 	width: 100%;
 	height: 500px;
 }
- .bellow_1 #giua_2 h5
+ .bellow_1 #giua_2 h4
  {
  	text-decoration: none;
 	color: #333333;
@@ -406,7 +414,7 @@ margin-left: 150px;
 	font-weight: bold;
 	font-size: 30px;
 }
-.bellow_2 #giua_3 p
+.bellow_2 #giua_3 a
 {
 	margin-top: 1500px;
 	float: left;
@@ -634,7 +642,7 @@ margin-left: 150px;
 	margin-top: 40px;
 	margin-left: 80px;
 }
-.bellow_5 #tren ul li p
+.bellow_5 #tren ul li a
 {
 	list-style: none;
 	float: left;
@@ -685,7 +693,7 @@ margin-left: 150px;
 #duoi_1
 {
 	float: left;
-	margin-top: -190px;
+	margin-top: -180px;
 	margin-left: 110px;
 	width: 70%;
 }
@@ -771,14 +779,14 @@ margin-left: 150px;
 	border-radius:60px;
 	width: 100px;
 }
-.banner #banner_1 h1
+.banner #banner_1 h2
 {
 	padding-top: -500px;
 	padding-bottom: 30px;
 	color: #333333;
 	font-size: 20px;
 	letter-spacing: 4px;
-	width: 150px;
+	width: 190px;
 	margin-left: -100px;
 	font-family: 'Cormorant', serif;
 	font-style: italic;
@@ -944,7 +952,7 @@ margin-left: 170px;
 	float: left;
 	width: 90%;
 }
-.bellow_2 #giua_3 p
+.bellow_2 #giua_3 a
 {
 	margin-top: -7%;
 	float: left;
@@ -966,7 +974,7 @@ margin-left: 170px;
 	margin-left: -10px;
 
 }
-.bellow_3 h1
+.bellow_3 h2
 {
 	margin-left: 10%;
 }

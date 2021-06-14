@@ -13,7 +13,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	<div class="giohang">
+	<div class="form">
+		<h2>Giỏ hàng </h2>
+		<table>
+			<tr>
+				<td>Tên sản phẩm</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td>Hình ảnh</td>
+				<td><input type="file" name=""><img src=""></td>
+			</tr>
+			<tr>
+				<td>Số lượng</td>
+				<td><select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				</select></td>
+			</tr>
 
+			<tr>
+				<td><button>Mua hàng</button></td>
+				<td><button class="exit">Exit</button></td>
+			</tr>
+		</table>
+
+	</div>	
+
+	</div>
 	<div class="nen_1"></div>
 	<div class="hop-thoai">
 		<button class="btn-close"><i class="fas fa-backspace"></i></button>
@@ -43,7 +74,7 @@
 	<div id="banner_4">
 		<ul>
 			<li>
-				<i class="fas fa-shopping-cart"></i>
+				<button class="btn_giohang" style="background: #b9a68c;"><i class="fas fa-shopping-cart"></i></button>
 				<i class="fas fa-bars"></i>
 			</li>
 		</ul>
@@ -52,7 +83,7 @@
 	
 	<div id = "banner_1">
 			<h6>Spring 2017</h6>
-			<h1>IT’S YOUR SHINE TIME</h1>
+			<h2>IT’S YOUR SHINE TIME</h2>
 			<button class="btn">DISCOVER NOW</button>
 
 
@@ -92,24 +123,24 @@
 
 <div class="bellow_1">
 		<div id="tren"> 
-		<h2>It started with a simple idea: create quality, well-designed products that i wanted mysel.</h2>
+		<h4>It started with a simple idea: create quality, well-designed products that i wanted mysel.</h4>
 		</div>
 		<div id="giua">
 		<div id = "giua_1">
 			
 					<img src="img/anh4.jpg" width="392px" height="518px" >
-					<h5>Gold Leaf Ring</h5>
+					<h4>Gold Leaf Ring</h4>
 					<p>$179.00</p>
 					<img src="img/anh2.jpg" width="845px" height="522px;">
 					<div id="giua_1_1">
-					<h5>sale up to</h5>
+					<h6>sale up to</h6>
 					<h1>70%</h1>
 					<h4>Select Gold Clearance</h4>
 					<h3>SHOP NOW</h3>
 					</div>
 					<img src="img/anh3.jpg" width="392px" height="518px;">
 					<div id="giua_1_2">
-					<h5>new collection</h5>
+					<h5>NEW COLLECTION</h5>
 					<h3>Leaf  Ring</h3>
 					</div>
 				
@@ -118,7 +149,7 @@
 		<div id="giua_2">
 			<img src="img/hinh5.jpg" width="392px" height="518px">
 			<img src="img/hinh8.jpg" width="392px" height="530px">
-			<h5>Rose Gold Necklaces</h5>
+			<h4>Rose Gold Necklaces</h4>
 			<p>$179.00</p>
 			<img src="img/hinh7.jpg" width="845px" height="522px">
 			<h2>Princess Ring Rose Gold</h2>
@@ -130,7 +161,7 @@
 	<div class="bellow_2">
 		<div id="giua_3">
 				<h3>Featured items</h3>
-				<p> <i class="fas fa-play-circle" style="color: #d6ba8d; background: white;"></i> View more</p>
+				<a> <i class="fas fa-play-circle" style="color: #d6ba8d; background: white;"></i> View more</a>
 		</div>
 		<div id = "giua_tren">
 			<div id="giua_tren_1">
@@ -417,7 +448,7 @@
 	<div class="bellow_3">
 
 		<div id="tong">
-				<h1>Blog update</h1>
+				<h2>Blog update</h2>
 
 				<ul>
 				<div id="tong_1">
@@ -427,11 +458,11 @@
 					<li>
 						<img src="img/hinh15.jpg">
 						<p>July 14th, 2016</p>
-						<h2>8 Things I’ve Learned from 8 Years of Bonfire</h2>
+						<a>8 Things I’ve Learned from 8 Years of Bonfire</a>
 						<div id="duoi">
 							
-						<h6><i class="far fa-eye"></i> 247 views</h6>
-						<h6> <i class="fas fa-share-alt"></i>91 likes</h6>
+						<a><i class="far fa-eye"></i> 247 views</a>
+						<a> <i class="fas fa-share-alt"></i>91 likes</a>
 						</div>
 						
 					</li>
@@ -439,12 +470,11 @@
 					<li>
 						<img src="img/hinh16.jpg">
 						<p>July 14th, 2016</p>
-						<h2>How I Stay Inspired and Come Up with New Ideas</h2>
+						<a>How I Stay Inspired and Come Up with New Ideas</a>
 
 						<div id="duoi">
-							
-						<h6><i class="far fa-eye"></i>247 views</h6>
-						<h6><i class="fas fa-share-alt"></i>91 likes</h6>
+						<a><i class="far fa-eye"></i>247 views</a>
+						<a><i class="fas fa-share-alt"></i>91 likes</a>
 						</div>
 					</li>
 
@@ -453,12 +483,12 @@
 					<li>
 						<img src="img/hinh17.jpg">
 						<p>July 14th, 2016</p>
-						<h2>Wait, there’s a human on the other end?</h2>
+						<a>Wait, there’s a human on the other end?</a>
 
 						<div id="duoi">
 							
-						<h6><i class="far fa-eye"></i>247 views</h6>
-						<h6><i class="fas fa-share-alt"></i>91 likes</h6>
+						<a><i class="far fa-eye"></i>247 views</a>
+						<a><i class="fas fa-share-alt"></i>91 likes</a>
 						</div>
 					</li>
 				</div>
@@ -493,23 +523,23 @@
 				</li>
 
 				<li>
-					<p>HOME</p>
+					<a>HOME</a>
 				</li>
 				<li>
-					<p>ABOUT</p>
+					<a>ABOUT</a>
 				</li>
 				<li>
-					<p>SERVICES</p>
+					<a>SERVICES</a>
 				</li>
 				<li>
-					<p>PORTFOIO</p>
+					<a>PORTFOIO</a>
 				</li>
 				<li>
-					<p>PAGES</p>
+					<a>PAGES</a>
 
 				</li>
 				<li>
-					<p>CONTACT</p>
+					<a>CONTACT</a>
 
 				</li>
 
